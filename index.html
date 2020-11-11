@@ -8,42 +8,33 @@
 
     <!-- Bootstrap CsS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        a:link{
-            color: darkblue;
-        }
-        a:visited{
-            color: brown;
-        }
-        a:hover{
-            color: cadetblue;
-            background-color: black;
-        }
-        a:active{
-            color: antiquewhite;
-        }
-        .perfil{
-          border-radius: 170px;
-          width: 200px;
-          
-        }
-        
-        
-    </style>
-  </head>
+    
+    <link rel="stylesheet" href="estilos.css"> 
+</head>
   <body>
 
 
     <!--imagemtopo-->
-    <div class="jumbotron text-center">
-      <h1>Pedro Henrique Muniz de Olveira</h1>
-     
+    <header>
+      <div class="jumbotron text-center">
+        <h1>Pedro Henrique Muniz de Olveira</h1>
         
         <img src="92ec7edc-20f7-4c5f-a5d7-44608c351bda.jfif"  class="perfil">
-      
-      
-    </div>
 
+      </div>
+    </header> 
+
+    <div class="row featurette" style="text-align: left; margin-left:7% ; width: 80%; border: double red 1px;">
+      <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Um pouco sobre mim <span class="text-muted"></span></h2>
+      <p class="lead">
+          Eu tenho 17 anos, estou no 2 ano do ensino médio, e gosto de programar, tenho interesse em fazer
+          o menor aprendiz, para ter a minha primira experiencia profissional, e juntar recursos financiros para
+          tirar as seguintes certificações
+          .</p>
+      </div>
+    </div>
+    
     <!--certificados-->
     <div class="list-group" style="text-align: left; margin-left:7% ; width: 50%;">
       <h1>Certificados</h1>
@@ -117,7 +108,9 @@
       </ul>
     </div>
 
-    
+    <footer class="jumbotron text-center" style="">
+      <p class="float-right"><a href="#">Voltar ao topo</a></p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
