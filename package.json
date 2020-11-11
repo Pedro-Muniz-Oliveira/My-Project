@@ -1,0 +1,25 @@
+{
+  "name": "My-Project",
+  "version": "1.0.0",
+  "description": "https://pedro-muniz-oliveira.github.io/My-Project/.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedro-Muniz-Oliveira/My-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedro-Muniz-Oliveira/My-Project/issues"
+  },
+  "homepage": "https://github.com/Pedro-Muniz-Oliveira/My-Project#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
