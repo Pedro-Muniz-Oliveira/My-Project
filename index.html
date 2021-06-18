@@ -46,7 +46,7 @@
                      </a>
                 </li>
                 <li>
-                     <a href="https://wa.me/552499259-0170">
+                     <a href="https://wa.me/5524988034639?text=Olá%20Pedro'>
                          <img src="ImagensContato/what(1).jfif"  style="width: 40px;">
                          <i class="fa fa-whatsapp" aria-hidden="true"> (24)99259-0170</i>
                      </a>
@@ -60,7 +60,7 @@
       </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="#" class="navbar-brand d-flex align-items-center" style="text-align: left;">
             <script src="DataHora/date.js"></script>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -452,3 +452,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>/
+
+
+            <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.servicos.webservices.afnd.bradseg.com.br/">
+              <soapenv:Header/>
+              <soapenv:Body>
+                  <web:consultarBilhetesCertificadosNoParceiro>
+                    <arg0>
+                        <codigoParceiro>3769752</codigoParceiro>
+                        <numeroBloco>1</numeroBloco>
+                        <numeroDocumento>68966830749</numeroDocumento>
+                        <tipoDocumento>1</tipoDocumento>
+                    </arg0>
+                    <arg1>X999999</arg1>
+                  </web:consultarBilhetesCertificadosNoParceiro>
+              </soapenv:Body>
+            </soapenv:Envelope>
